@@ -1,0 +1,27 @@
+header{
+    background-color: #5800FF;
+    color: black;
+}
+nav{
+    background-color: #0096FF;
+}
+section{
+    background-color: #00D7FF;
+    grid-column: 1/4;
+}
+aside{
+    background-color: #72FFFF;
+    grid-column: 4/5;
+}
+footer{
+    background-color: #0096FF;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
